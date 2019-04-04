@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+
+
+
+
+
+	address 29.138.35.239/6
+	address 49.188.101.67/2
+	hwaddress 4E:20:5A:D1:DA:B2
+	hwaddress 80:05:CF:BE:C7:33
+	hwaddress B5:88:20:0B:AF:F7
+	hwaddress E7:47:AF:56:56:27
+	hwaddress FF:BF:FD:87:E2:6E
+iface 29.138.35.239 inet static
+iface 49.188.101.67 inet static inherits wealth2
+iface eth5 inet
+iface eth6 inet
+iface jam1 inet
+iface moths1 inet
+iface moths3 inet
+iface ruins0 inet
+iface wealth2 inet
+iface wealth4 inet
+iface wlan0 inet inherits moths3
+iface wlan2 inet inherits ruins0
+	mtu 1293
+	mtu 2806
+	mtu 6439
+	mtu 6877
+	mtu 8894

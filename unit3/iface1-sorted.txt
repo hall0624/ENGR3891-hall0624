@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+
+
+
+	address 18.3.208.84/8
+	address 6.250.237.161/20
+	address 68.213.146.239/20
+	address 93.17.119.19/30
+	hwaddress 85:68:04:94:B4:2C
+	hwaddress B0:10:B9:4C:E8:87
+	hwaddress CE:00:25:E6:B1:B9
+iface 18.3.208.84 inet static
+iface 6.250.237.161 inet static
+iface 68.213.146.239 inet static
+iface 93.17.119.19 inet static
+iface castle2 inet
+iface eth0 inet
+iface eth6 inet inherits ruins1
+iface ruins1 inet
+iface wealth0 inet
+iface wlan2 inet
+	mtu 3390
+	mtu 6230
+	mtu 691

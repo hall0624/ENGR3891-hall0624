@@ -1,0 +1,15 @@
+
+
+
+
+
+	address 43.220.7.146/26
+	hwaddress 93:BB:5D:F7:6E:AB
+	hwaddress FF:2F:82:55:F3:02
+iface 43.220.7.146 inet static
+iface ftdi0 inet
+iface moths0 inet
+iface wealth1 inet
+iface wlan2 inet inherits wealth1
+	mtu 6957
+	mtu 8952
