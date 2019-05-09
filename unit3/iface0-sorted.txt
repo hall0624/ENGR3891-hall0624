@@ -6,10 +6,10 @@
 	address 43.220.7.146/26
 	hwaddress 93:BB:5D:F7:6E:AB
 	hwaddress FF:2F:82:55:F3:02
-iface ftdi0 inet
+iface ftdi0 inet dhcp
 iface jam1 inet static
-iface moths0 inet
-iface wealth1 inet
-iface wlan2 inet inherits wealth1
+iface moths0 inet static
+iface wealth1 inet static
+iface wlan2 inet inherits wealth1 dhcp
 	mtu 6957
 	mtu 8952

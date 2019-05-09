@@ -17,18 +17,18 @@
 	hwaddress B5:88:20:0B:AF:F7
 	hwaddress E7:47:AF:56:56:27
 	hwaddress FF:BF:FD:87:E2:6E
-iface eth5 inet
-iface eth6 inet
-iface jam1 inet
+iface eth5 inet dhcp
+iface eth6 inet dhcp
+iface jam1 inet dhcp
 iface jam3 inet static inherits wealth2
 iface jam4 inet static
-iface moths1 inet
-iface moths3 inet
-iface ruins0 inet
-iface wealth2 inet
-iface wealth4 inet
-iface wlan0 inet inherits moths3
-iface wlan2 inet inherits ruins0
+iface moths1 inet static
+iface moths3 inet static
+iface ruins0 inet static
+iface wealth2 inet static
+iface wealth4 inet static
+iface wlan0 inet inherits moths3 dhcp
+iface wlan2 inet inherits ruins0 dhcp
 	mtu 1293
 	mtu 2806
 	mtu 6439
