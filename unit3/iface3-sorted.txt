@@ -17,11 +17,11 @@
 	hwaddress B5:88:20:0B:AF:F7
 	hwaddress E7:47:AF:56:56:27
 	hwaddress FF:BF:FD:87:E2:6E
-iface 29.138.35.239 inet static
-iface 49.188.101.67 inet static inherits wealth2
 iface eth5 inet
 iface eth6 inet
 iface jam1 inet
+iface jam3 inet static inherits wealth2
+iface jam4 inet static
 iface moths1 inet
 iface moths3 inet
 iface ruins0 inet

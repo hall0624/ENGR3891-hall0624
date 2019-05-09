@@ -18,18 +18,18 @@
 	hwaddress 72:E5:A5:C3:C4:94
 	hwaddress A4:DB:43:AB:9C:57
 	hwaddress DD:B8:AA:5E:3C:8F
-iface 11.196.42.166 inet static inherits moths0
-iface 113.168.174.163 inet static
-iface 87.98.177.107 inet static
 iface castle1 inet
 iface ftdi3 inet
+iface jam0 inet static inherits moths0
 iface jam1 inet
+iface jam4 inet static
 iface moths0 inet
 iface moths4 inet
 iface ruins2 inet
 iface ruins3 inet
 iface wlan2 inet
 iface wlan5 inet
+iface wlan6 inet static
 	mtu 1306
 	mtu 2469
 	mtu 2760
