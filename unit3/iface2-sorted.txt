@@ -11,7 +11,7 @@
 	hwaddress EF:E6:C9:C4:D5:5E
 iface castle0 inet static
 iface castle2 inet static
-iface eth2 inet inherits castle2 dhcp
+iface eth2 inet dhcp inherits castle2
 iface ftdi1 inet static
 iface jam0 inet static
 iface wealth1 inet static

@@ -10,6 +10,6 @@ iface ftdi0 inet dhcp
 iface jam1 inet static
 iface moths0 inet static
 iface wealth1 inet static
-iface wlan2 inet inherits wealth1 dhcp
+iface wlan2 inet dhcp inherits wealth1
 	mtu 6957
 	mtu 8952

@@ -17,7 +17,7 @@
 	hwaddress CE:00:25:E6:B1:B9
 iface castle2 inet static
 iface eth0 inet dhcp
-iface eth6 inet inherits ruins1 dhcp
+iface eth6 inet dhcp inherits ruins1
 iface ftdi3 inet static
 iface ftdi4 inet static
 iface ftdi5 inet static

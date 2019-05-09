@@ -27,8 +27,8 @@ iface moths3 inet static
 iface ruins0 inet static
 iface wealth2 inet static
 iface wealth4 inet static
-iface wlan0 inet inherits moths3 dhcp
-iface wlan2 inet inherits ruins0 dhcp
+iface wlan0 inet dhcp inherits moths3
+iface wlan2 inet dhcp inherits ruins0
 	mtu 1293
 	mtu 2806
 	mtu 6439
